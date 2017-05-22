@@ -24,7 +24,11 @@ github_username:  danvanhorn
 
 # Build settings
 markdown: kramdown
+<<<<<<< HEAD
 theme: Minima
+=======
+theme: jekyll-theme-midnight
+>>>>>>> 7e8a8311189b0f7d344ff4d8ced8466ad1b5d23d
 gems:
   - jekyll-feed
 exclude:
