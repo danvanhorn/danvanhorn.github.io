@@ -11,6 +11,9 @@
     padding-top: 35px;
     height: 0;
     overflow: hidden;
+    /*to enable touch scrolling on mobile*/
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
 
     iframe {
         position: absolute;
