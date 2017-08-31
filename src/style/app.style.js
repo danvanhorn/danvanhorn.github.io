@@ -5,7 +5,7 @@ const s = Object.create(style);
 s.root = {
   display: 'flex',
   flexFlow: 'column nowrap',
-  fontFamily: 'helvetica, sans-serif',
+  fontFamily: 'lora, serif',
   fontWeight: '300',
   fontSize: '16px',
   letterSpacing: '0.025em',
@@ -34,10 +34,18 @@ s.root = {
 };
 
 s.title = {
+    fontFamily: 'helvetica, sans-serif',
     fontSize: '36px',
     color: 'white',
     padding: '1vh 0 2vh 0'
 };
+
+s.contentTitle = {
+    fontSize: '24pt',
+    fontWeight: 'bold',
+    textAlign: 'center',
+    margin: 'auto'
+}
   
 s.repoLink = {
     fontSize: '14px',

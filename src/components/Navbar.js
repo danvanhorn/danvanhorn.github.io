@@ -55,7 +55,7 @@ class Navbar extends Component {
             <NavbarContainer>
                 <h1 style={s.title}>Dan Van Horn</h1>
                 <LinkContainer>
-                    <HoverableLink href='./'>Home</HoverableLink>
+                    <HoverableLink href='./home'>Home</HoverableLink>
                     <HoverableLink href='./info'>Info</HoverableLink>
                     <HoverableLink href='./projects'>Projects</HoverableLink>
                     <HoverableLink href='./contact'>Contact</HoverableLink>
