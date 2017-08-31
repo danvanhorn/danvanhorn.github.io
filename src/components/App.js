@@ -15,8 +15,7 @@ const App = props => {
     <div style={s.root}>
       <Navbar/>
       <Switch>
-        <Route exact path="/" component={LandingPage} />
-        <Route exact path="/home" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route exact path="/info" component={Info} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/contact" component={Contact} />
