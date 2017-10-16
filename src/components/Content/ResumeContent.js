@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Styled from '../../utils/styled';
-import { ContentWrapper, ContentTitle, ContentSection } from '../../style/js/styledComponents.js';
+import { ContentTitle, ContentSection } from '../../style/js/styledComponents.js';
 
 const JobTitle = Styled('div',{
   display: 'flex',
@@ -22,8 +22,8 @@ const UTitle = Styled('h2', {
 class ResumeContent extends Component {
   render() {
     return (
-      <ContentWrapper>
-        <ContentSection>
+      <div className="content-wrapper">
+        <div className="content-section">
           <UTitle>Education</UTitle>
           <ul>
             <li>
@@ -35,8 +35,8 @@ class ResumeContent extends Component {
               | Associate’s Degree | SEPTEMBER  2013 - JUNE 2014  ||  3.26 GPA
             </li>
           </ul>
-        </ContentSection>
-        <ContentSection>
+        </div>
+        <div className="content-section">
         <UTitle>Experience</UTitle>
           <JobTitle>
             <h3>Center For Applied Systems and Software</h3>&nbsp;
@@ -68,8 +68,8 @@ class ResumeContent extends Component {
             <li>Work with faculty to develop new curriculum and assignments.</li>
             <li>Give supplemental required lectures to students.</li>
           </ul>
-        </ContentSection>
-      </ContentWrapper>
+        </div>
+      </div>
       )
   }
 }

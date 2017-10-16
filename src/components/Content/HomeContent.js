@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Styled from '../../utils/styled';
-import { ContentWrapper, ContentTitle, ContentSection } from '../../style/js/styledComponents';
+import { ContentTitle, ContentSection } from '../../style/js/styledComponents';
 
 const PictureContainer = Styled('div',{
   display: 'flex',
@@ -10,8 +10,8 @@ const PictureContainer = Styled('div',{
 class HomeContent extends Component {
   render() {
     return (
-      <ContentWrapper>
-        <ContentSection>
+      <div className="content-wrapper">
+        <div className="content-section">
           <PictureContainer >
             <img src="../images/dvh.jpg" height="30%" width="40%"/>
           </PictureContainer>
@@ -27,8 +27,8 @@ class HomeContent extends Component {
              much anything on two wheels, and I ride my bike every day. I rock climb, hike,
              camp, pretty much anything outdoors.
           </p>
-        </ContentSection>
-      </ContentWrapper>
+        </div>
+      </div>
     )
   }
 }

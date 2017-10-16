@@ -5,9 +5,10 @@ const s = Object.create(style);
 s.root = {
     display: 'flex',
     flexFlow: 'column nowrap',
+    //fontFamily: "Avenir Next", "Avenir", sans-serif;
     fontFamily: 'lora, serif',
     fontWeight: '300',
-    fontSize: '16px',
+    //fontSize: '16px',
     letterSpacing: '0.025em',
     padding: '0',
     width: '500px',
@@ -33,12 +34,6 @@ s.root = {
     //   textSizeAdjust: 'none',
 };
 
-s.title = {
-    fontFamily: 'helvetica, sans-serif',
-    fontSize: '36px',
-    color: 'white',
-    padding: '1vh 0 0 0'
-};
 
 s.contentTitle = {
     fontSize: '24pt',

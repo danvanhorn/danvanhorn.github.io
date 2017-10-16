@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import { ContentWrapper, ContentTitle, ContentSection } from '../../style/js/styledComponents';
+import { ContentTitle, ContentSection } from '../../style/js/styledComponents';
 
 class ProjectsContent extends Component {
   render() {
     return (
-      <ContentWrapper>
-        <ContentSection>
+      <div className="content-wrapper">
+        <div className="content-section">
           <ContentTitle>Projects</ContentTitle>
           <p>Coming soon...</p>
-        </ContentSection>
-      </ContentWrapper>
+        </div>
+      </div>
     )
   }
 }
