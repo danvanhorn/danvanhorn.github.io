@@ -6,13 +6,14 @@ const JobTitle = Styled('div',{
   display: 'flex',
   flexflow: 'row',
   alignItems: 'center',
-  justifyContent: 'space-between'
+  justifyContent: 'space-between',
+  color: '#2B5D7F'
 })
 
 const UTitle = Styled('h2', {
   textAlign: 'left',
   width: '100%',
-  borderBottom: '1px solid lightgrey'
+  borderBottom: '1px solid #4CB7FF'
 })
 
 

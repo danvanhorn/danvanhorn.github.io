@@ -38,22 +38,20 @@ export default {
     },
 };
 
-export const Code = ({ children }) => ( <
-    code style = {
-        {
-            fontFamily: 'monospace',
-            fontSize: '15px',
-            paddingLeft: '2px',
-        }
-    } > { children } < /code>
+export const Code = ({ children }) => (
+    <code style={{
+        fontFamily: 'monospace',
+        fontSize: '15px',
+        paddingLeft: '2px',
+    }}> {children} </code>
 );
 
 Code.propTypes = {
     children: PropTypes.string.isRequired,
 };
 
-export const Li = ({ children, ...rest }) => ( <
-    li style = {
+export const Li = ({ children, ...rest }) => (
+    <li style={
         {
             paddingLeft: '18px',
             textIndent: '-15px',
@@ -61,11 +59,7 @@ export const Li = ({ children, ...rest }) => ( <
             listStyle: 'none',
         }
     } {...rest } >
-    <
-    span style = {
-        { paddingRight: '7px' }
-    } > & ndash; < /span> { children } < /
-    li >
+        <span style={{ paddingRight: '7px' }}> &ndash; </span> {children} </li>
 );
 
 Li.propTypes = {

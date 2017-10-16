@@ -6,7 +6,8 @@ class ProjectsContent extends Component {
     return (
       <ContentWrapper>
         <ContentSection>
-          <ContentTitle>Finish Your Damn Projects</ContentTitle>
+          <ContentTitle>Projects</ContentTitle>
+          <p>Coming soon...</p>
         </ContentSection>
       </ContentWrapper>
     )

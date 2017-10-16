@@ -37,14 +37,15 @@ s.title = {
     fontFamily: 'helvetica, sans-serif',
     fontSize: '36px',
     color: 'white',
-    padding: '1vh 0 2vh 0'
+    padding: '1vh 0 0 0'
 };
 
 s.contentTitle = {
     fontSize: '24pt',
     fontWeight: 'bold',
     textAlign: 'center',
-    margin: 'auto'
+    margin: 'auto',
+    color: '#2B5D7F'
 }
 
 s.repoLink = {

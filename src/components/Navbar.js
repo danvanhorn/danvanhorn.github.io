@@ -38,7 +38,7 @@ const HoverableLink = (props) => {
         hover={{ background: 'rgb(8, 158, 232)' }}
         active={{ color: 'darkgray', background: 'rgb(3, 130, 232)'}}
         style={{
-            fontSize: '2vh',
+            fontSize: '1em',
             color: 'white',
             width: '30vw',
             padding: '1vh 1vw 1vh 1vw',
