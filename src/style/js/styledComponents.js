@@ -13,7 +13,7 @@ export const ContentWrapper = Styled('div', {
   display: 'flex',
   flexFlow: 'column',
   height: '100%',
-  width: '60vw',
+  width: '80vw',
   paddingTop: '20vh',
   boxShadow: '1px 1px 5px grey',
   backgroundColor: '#fff'

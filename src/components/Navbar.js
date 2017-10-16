@@ -13,7 +13,7 @@ const NavbarContainer = Styled('div', {
     boxShadow: '1px 1px 4px gray',
     position: 'fixed',
     width: '100vw',
-    height: '12vh',
+    height: 'auto',
     top: '0'
 })
 
@@ -56,7 +56,7 @@ class Navbar extends Component {
                 <h1 style={s.title}>Dan Van Horn</h1>
                 <LinkContainer>
                     <HoverableLink href='./'>Home</HoverableLink>
-                    <HoverableLink href='./info'>Info</HoverableLink>
+                    <HoverableLink href='./resume'>Resume</HoverableLink>
                     <HoverableLink href='./projects'>Projects</HoverableLink>
                     <HoverableLink href='./contact'>Contact</HoverableLink>
                 </LinkContainer>

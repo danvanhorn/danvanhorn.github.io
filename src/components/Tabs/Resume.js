@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { ContentContainer } from '../../style/js/styledComponents.js';
-import InfoContent from '../Content/InfoContent';
+import ResumeContent from '../Content/ResumeContent';
 
-class Info extends Component {
+class Resume extends Component {
     render() {
         return (
             <ContentContainer>
-                <InfoContent/>
+                <ResumeContent/>
             </ContentContainer>
         )
     }
 }
 
-export default Info;
+export default Resume;
