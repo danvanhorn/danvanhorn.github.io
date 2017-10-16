@@ -13,6 +13,7 @@ const JobTitle = Styled('div',{
 const UTitle = Styled('h2', {
   textAlign: 'left',
   width: '100%',
+  color: '#2B5D7F',
   borderBottom: '1px solid #4CB7FF'
 })
 
