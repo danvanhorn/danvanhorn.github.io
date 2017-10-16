@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { ContentContainer } from '../style/styledComponents.js';
-import ContactContent from './ContactContent';
+import { ContentContainer } from '../../style/styledComponents.js';
+import ContactContent from '../Content/ContactContent';
 
 
 

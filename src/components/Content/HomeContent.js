@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
-import Styled from '../utils/styled';
-import { ContentWrapper, ContentTitle } from '../style/styledComponents';
+import Styled from '../../utils/styled';
+import { ContentWrapper, ContentTitle, ContentSection } from '../../style/styledComponents';
 
 class HomeContent extends Component {
   render() {
     return (
       <ContentWrapper>
-        <ContentTitle>This... is the Title</ContentTitle>
-        <h2>Section Heading</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+        <ContentSection>
+          <ContentTitle>This... is the Title</ContentTitle>
+        </ContentSection>
+        <ContentSection>
+          <h2>Section Heading</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing
             elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis
             nostrud exercitation ullamco laboris nisi ut aliquip
@@ -17,9 +20,10 @@ class HomeContent extends Component {
             eu fugiat nulla pariatur. Excepteur sint occaecat
             cupidatat non proident, sunt in culpa qui officia
             deserunt mollit anim id est laborum.</p>
-        <br />
-        <h2>Section Heading 2</h2>
-        <p>Sed ut perspiciatis unde omnis iste natus error
+        </ContentSection>
+        <ContentSection>
+          <h2>Section Heading 2</h2>
+          <p>Sed ut perspiciatis unde omnis iste natus error
             sit voluptatem accusantium doloremque laudantium,
             totam rem aperiam, eaque ipsa quae ab illo inventore
             veritatis et quasi architecto beatae vitae dicta
@@ -36,9 +40,10 @@ class HomeContent extends Component {
             reprehenderit qui in ea voluptate velit esse quam nihil
             molestiae consequatur, vel illum qui dolorem eum
             fugiat quo voluptas nulla pariatur?</p>
-        <br />
-        <h2>Section Heading 3</h2>
-        <p>At vero eos et accusamus et iusto odio dignissimos
+        </ContentSection>
+        <ContentSection>
+          <h2>Section Heading 3</h2>
+          <p>At vero eos et accusamus et iusto odio dignissimos
             ducimus qui blanditiis praesentium voluptatum deleniti
             atque corrupti quos dolores et quas molestias excepturi
             sint occaecati cupiditate non provident, similique sunt
@@ -54,6 +59,7 @@ class HomeContent extends Component {
             tenetur a sapiente delectus, ut aut reiciendis voluptatibus
             maiores alias consequatur aut perferendis doloribus
             asperiores repellat.</p>
+        </ContentSection>
       </ContentWrapper>
     )
   }

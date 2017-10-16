@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ContentWrapper, ContentTitle } from '../style/styledComponents.js';
+import { ContentWrapper, ContentTitle } from '../../style/styledComponents.js';
 
 class ProjectsContent extends Component {
   render() {

@@ -1,13 +1,12 @@
 import React from 'react';
 import Interactive from 'react-interactive';
 import { Switch, Route } from 'react-router-dom';
-import LandingPage from './LandingPage';
-import Home from './Home';
-import Info from './Info';
-import Projects from './Projects';
-import Contact from './Contact';
+import Home from './Tabs/Home';
+import Info from './Tabs/Info';
+import Projects from './Tabs/Projects';
+import Contact from './Tabs/Contact';
 import Navbar from './Navbar';
-import PageNotFound from './PageNotFound';
+import PageNotFound from './Tabs/PageNotFound';
 import s from '../style/app.style.js'
 
 const App = props => {

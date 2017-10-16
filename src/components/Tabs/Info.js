@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { ContentContainer } from '../style/styledComponents.js';
-import InfoContent from './InfoContent';
+import { ContentContainer } from '../../style/styledComponents.js';
+import InfoContent from '../Content/InfoContent';
 
 class Info extends Component {
     render() {
