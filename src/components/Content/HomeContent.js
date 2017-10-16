@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Styled from '../../utils/styled';
-import { ContentWrapper, ContentTitle, ContentSection } from '../../style/styledComponents';
+import { ContentWrapper, ContentTitle, ContentSection } from '../../style/js/styledComponents';
 
 class HomeContent extends Component {
   render() {

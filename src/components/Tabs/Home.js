@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ContentContainer } from '../../style/styledComponents.js';
+import { ContentContainer } from '../../style/js/styledComponents.js';
 import HomeContent from '../Content/HomeContent'
 
 class Home extends Component {

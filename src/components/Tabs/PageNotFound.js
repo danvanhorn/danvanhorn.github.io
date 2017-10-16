@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Code } from '../../style/style';
-import { ContentContainer, ContentWrapper } from '../../style/styledComponents';
+import { Code } from '../../style/js/style';
+import { ContentContainer, ContentWrapper } from '../../style/js/styledComponents';
 
 const propTypes = {
   location: PropTypes.object.isRequired,

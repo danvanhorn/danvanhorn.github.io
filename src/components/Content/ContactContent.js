@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import { ContentWrapper, ContentTitle } from '../../style/styledComponents.js';
+import { ContentWrapper, ContentTitle, ContentSection } from '../../style/js/styledComponents.js';
 
 class ContactContent extends Component {
   render() {
     return (
       <ContentWrapper>
-        <ContentTitle>Contact Me</ContentTitle>
+        <ContentSection>
+          <ContentTitle>Contact Me</ContentTitle>
+        </ContentSection>
       </ContentWrapper>
     )
   }

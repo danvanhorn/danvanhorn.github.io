@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import { ContentWrapper, ContentTitle } from '../../style/styledComponents.js';
+import { ContentWrapper, ContentTitle, ContentSection } from '../../style/js/styledComponents';
 
 class ProjectsContent extends Component {
   render() {
     return (
       <ContentWrapper>
-        <ContentTitle>Finish Your Damn Projects</ContentTitle>
+        <ContentSection>
+          <ContentTitle>Finish Your Damn Projects</ContentTitle>
+        </ContentSection>
       </ContentWrapper>
     )
   }

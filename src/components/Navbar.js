@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Styled from '../utils/styled';
-import { Link } from '../style/style.js';
+import { Link } from '../style/js/style.js';
 import Interactive from 'react-interactive';
-import s from '../style/app.style.js';
+import s from '../style/js/app.style.js';
 
 const NavbarContainer = Styled('div', {
     display: 'flex',
@@ -11,7 +11,7 @@ const NavbarContainer = Styled('div', {
     alignItems: 'center',
     background: 'rgb(8,140,232)',
     boxShadow: '1px 1px 4px gray',
-    position: 'absolute',
+    position: 'fixed',
     width: '100vw',
     height: '12vh',
     top: '0'
