@@ -3,21 +3,16 @@ import PropTypes from 'prop-types';
 import { Code } from '../../style/js/style';
 import { ContentContainer, ContentWrapper } from '../../style/js/styledComponents';
 
-const propTypes = {
-  location: PropTypes.object.isRequired,
-};
-
-const PageNotFound = props => {
-  return (
-    <ContentContainer>
-      <ContentWrapper>
-        Page not found - the path, <Code>{props.location.pathname}</Code>,
-        did not match any React Router routes.
-      </ContentWrapper>
-    </ContentContainer>
-  );
+class PageNotFound extends React.Component {
+  render(){
+    return (
+      <ContentContainer>
+        <ContentWrapper>
+          Sorry, the path does not match a valid page.
+        </ContentWrapper>
+      </ContentContainer>
+    );
+  }
 }
-
-PageNotFound.propTypes = propTypes;
 
 export default PageNotFound;
