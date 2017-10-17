@@ -17,7 +17,11 @@ const UTitle = Styled('h2', {
   borderBottom: '1px solid #4CB7FF'
 })
 
-
+const BulletedList = Styled('ul',{
+  listStyle: 'none',
+  padding: '0',
+  margin: '0'
+});
 
 class ResumeContent extends Component {
   render() {
@@ -25,7 +29,7 @@ class ResumeContent extends Component {
       <div className="content-wrapper">
         <div className="content-section">
           <UTitle>Education</UTitle>
-          <ul>
+          <BulletedList>
             <li>
               <strong>Oreg State University, Corvallis OR</strong>&nbsp;
              | BS Computer Science | SEPTEMBER  2015 -  est. JUNE 2019
@@ -34,7 +38,7 @@ class ResumeContent extends Component {
               <strong>Chemeketa Community College, Mcminnville OR</strong>&nbsp;
               | Associate’s Degree | SEPTEMBER  2013 - JUNE 2014  ||  3.26 GPA
             </li>
-          </ul>
+          </BulletedList>
         </div>
         <div className="content-section">
         <UTitle>Experience</UTitle>
@@ -42,32 +46,32 @@ class ResumeContent extends Component {
             <h3>Center For Applied Systems and Software</h3>&nbsp;
             <strong>Software Developer, May 2016 - Present</strong>
           </JobTitle>
-          <ul>
+          <BulletedList>
             <li>Collaborate with team members in an to develop and maintain applications for a government system using AGILE practices.</li>
             <li>Update outdated technologies and design methodologies using modern practices.</li>
             <li>Develop RESTful geospatial services to supply dynamic information to web applications using MVC pattern and ArcGIS API.</li>
             <li>Adapt at dynamic project specifications and full stack full stack development.</li>
-          </ul>
+          </BulletedList>
           <JobTitle>
             <h3>CDK Global</h3>&nbsp;
             <strong>Software Engineer Intern, June 2017 - September 2017</strong>
           </JobTitle>
-          {/* <ul>
+          {/* <BulletedList>
             <li></li>
             <li></li>
             <li></li>
             <li></li>
-          </ul> */}
+          </BulletedList> */}
           <JobTitle>
             <h3>OSU School of Electrical Engineering And Computer Science</h3>&nbsp;
             <strong>Teaching Assistant, September 2016 - June 2017</strong>
           </JobTitle>
-          <ul>
+          <BulletedList>
             <li>Teach Computer Science students foundational skills in UNIX, Python, C++ and OOP.</li>
             <li>Provide assistance regarding design, programming and debugging issues students face both in person and remotely.</li>
             <li>Work with faculty to develop new curriculum and assignments.</li>
             <li>Give supplemental required lectures to students.</li>
-          </ul>
+          </BulletedList>
         </div>
       </div>
       )

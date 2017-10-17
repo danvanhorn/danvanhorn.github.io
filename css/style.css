@@ -22,6 +22,18 @@
   padding-bottom: 4vh;
 }
 
+/* set the indentation because we cleared the list-style */
+.content-section li {
+  padding-left: 1em; 
+  text-indent: -.7em;
+}
+
+/* make our own bullet so we can set the color */
+.content-section li::before {
+  content: "• ";
+  color: #2B5D7F; 
+}
+
 .contact-container{
   display: flex;
   flex-flow: row nowrap;
