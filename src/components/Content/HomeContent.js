@@ -18,14 +18,13 @@ class HomeContent extends Component {
           <ContentTitle>I'm Daniel Van Horn...</ContentTitle>
           <p>I'm a software developer and Junior at Oregon State University,
             pursuing my bachelor's degree in Computer Science, computer systems.
-            As a bit of a non-traditional student, I found that I had more time
-            to develop a passion for software engineering and decided to make it
-            my career.
+            I work at the Center for Applied Systems and Software at OSU, CASS 
+            for short, developing web applications for many clients.  
           </p>
           <br />
-          <p>I wont say it's all sitting behind a screen. I'm an avid cyclist, pretty
-             much anything on two wheels, and I ride my bike every day. I rock climb, hike,
-             camp, pretty much anything outdoors.
+          <p>I'm an avid cyclist, and ride my bike every day rain or shine. It's almost
+            required to love the outdoor in the Pacific Northwest and I am no exception.
+            I love hiking, camping, rock climbing, and enjoying the great outdoors. 
           </p>
         </div>
       </div>

@@ -52,12 +52,12 @@ class ResumeContent extends Component {
             <h3>CDK Global</h3>&nbsp;
             <strong>Software Engineer Intern, June 2017 - September 2017</strong>
           </JobTitle>
-          <ul>
-            <li>Collaborate with team members in an to develop and maintain applications for a government system using AGILE practices.</li>
-            <li>Update outdated technologies, using Docker, React Js, .Net Framework and outdated design methodologies.</li>
-            <li>Develop RESTful geospatial services to supply dynamic information to web applications using MVC pattern and ArcGIS API.</li>
-            <li>Adapt at dynamic project specifications and full stack full stack development.</li>
-          </ul>
+          {/* <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul> */}
           <JobTitle>
             <h3>OSU School of Electrical Engineering And Computer Science</h3>&nbsp;
             <strong>Teaching Assistant, September 2016 - June 2017</strong>

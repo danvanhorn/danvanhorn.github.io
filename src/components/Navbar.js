@@ -1,19 +1,24 @@
 import React, { Component } from 'react';
 import s from '../style/js/app.style.js';
 
-
 class Navbar extends Component {
     render() {
         return (
-            <div className="navbar-container">
-                <h1 id="navbar-title">Daniel Van Horn</h1>
-                <div className="link-container">
-                    <a className="link" href='./'>Home</a>
-                    <a className="link" href='./resume'>Resume</a>
-                    <a className="link" href='./projects'>Projects</a>
-                    <a className="link" href='./contact'>Contact</a>
+            <nav className="navbar-container">
+                <div id="navbar-title"><h1>Daniel Van Horn</h1></div>
+                <div id="menu-toggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="link-container">
+                        <a href='./'><li>Home</li></a>
+                        <a href='./resume'><li>Resume</li></a>
+                        <a href='./projects'><li>Projects</li></a>
+                        <a href='./contact'><li>Contact</li></a>
+                    </ul>
                 </div>
-            </div>
+            </nav>
         );
     }
 }

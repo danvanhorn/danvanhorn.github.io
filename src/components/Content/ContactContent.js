@@ -11,7 +11,7 @@ class ContactContent extends Component {
             <div className="contact-container">
               <a href="https://github.com/danvanhorn"><span className='fa fa-github fa-5x' style={{ color: 'lightgrey' }} /></a>&nbsp;
               <a href=""><span className='fa fa-twitter fa-5x' style={{ color: 'lightgrey' }} /></a>&nbsp;
-              <a href="www.linkedin.com/in/dan-van-horn"><span className='fa fa-linkedin fa-5x' style={{ color: 'lightgrey' }} /></a>&nbsp;&nbsp;
+              <a href="https://www.linkedin.com/in/dan-van-horn"><span className='fa fa-linkedin fa-5x' style={{ color: 'lightgrey' }} /></a>&nbsp;&nbsp;
               <a href="mailto:dan.vanhorn17@gmail.com"><span className='fa fa-envelope fa-5x' style={{ color: 'lightgrey' }} /></a>&nbsp;
             </div>
         </div>
