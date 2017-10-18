@@ -57,6 +57,19 @@
   color: #2B5D7F;
 }
 
+.contact-link{
+  color: lightgrey;
+  transition: color ease .3s;
+}
+
+.contact-link:hover{
+  color: #4595CC;
+}
+
+.contact-link:active{
+  color: #2B5D7F;
+}
+
 
 @media screen and (max-width: 600px) {
   .content-wrapper{
@@ -77,7 +90,7 @@
 
   #root {
     background-color: #fff;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .resume-title{
