@@ -29,16 +29,29 @@ class ResumeContent extends Component {
       <div className="content-wrapper">
         <div className="content-section">
           <UTitle>Education</UTitle>
-          <div className="edu-title">
-            <h3>Oreg State University, Corvallis OR</h3>
-            <strong>SEPTEMBER  2015 -  est. JUNE 2019</strong>
+          <div className="resume-title">
+            <h3>Oregon State University, Corvallis OR</h3>
+            <strong>September 2015 - est. June 2019</strong>
           </div>
           <p>B.S. Computer Science, Computer Systems</p>
-          <div className="edu-title">
+          <div className="resume-title">
             <h3>Chemeketa Community College, Mcminnville OR</h3>
-            <strong>SEPTEMBER  2013 - JUNE 2014 </strong>
+            <strong>September 2013 - June 2014</strong>
           </div>
           <p>Associates Degree</p>
+        </div>
+        <div className="content-section">
+          <UTitle>Technical Skills</UTitle>
+          <div className="skills-section">
+            <div style={{padding: '3px'}}>
+              <h3>Programming</h3>
+              <p><strong>C#, C++, C, JavaScript</strong>, HTML, CSS, LESS, JSON, XML, YAML, SQL, MySql, Node JS, Python, Java</p>
+            </div>
+            <div style={{padding: '3px'}}>
+              <h3>Technologies</h3>
+              <p><strong>React Js, Typescript, NPM, Redux, Flux, Webpack, Babel</strong>, JQuery, Bootstrap, Razor, XSLT</p>
+            </div>
+          </div>
         </div>
         <div className="content-section">
           <UTitle>Experience</UTitle>

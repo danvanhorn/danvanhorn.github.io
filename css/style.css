@@ -41,13 +41,22 @@
   align-items: center;  
 }
 
-.edu-container {
+.resume-title{
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row;
   align-items: center;
   justify-content: space-between;
   color: #2B5D7F;
 }
+
+.skills-section {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-around;
+  color: #2B5D7F;
+}
+
 
 @media screen and (max-width: 600px) {
   .content-wrapper{
@@ -71,10 +80,16 @@
     font-size: 12px;
   }
 
-  .edu-container{
-    flex-flow: column nowrap;
+  .resume-title{
+    flex-flow: column;
+    align-items: flex-start;
+    text-align: left;
   }
   
+  .skills-section {
+    display: flex;
+    flex-flow: column;
+  }
 }
 
 
