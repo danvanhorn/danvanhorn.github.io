@@ -41,6 +41,14 @@
   align-items: center;  
 }
 
+.edu-container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  color: #2B5D7F;
+}
+
 @media screen and (max-width: 600px) {
   .content-wrapper{
     width: 100vw;
@@ -61,6 +69,10 @@
   #root {
     background-color: #fff;
     font-size: 12px;
+  }
+
+  .edu-container{
+    flex-flow: column nowrap;
   }
   
 }

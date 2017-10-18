@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import Styled from '../../utils/styled';
 import { ContentTitle, ContentSection } from '../../style/js/styledComponents.js';
 
-const JobTitle = Styled('div',{
+const JobTitle = Styled('div', {
   display: 'flex',
-  flexflow: 'row',
+  flexFlow: 'row',
   alignItems: 'center',
   justifyContent: 'space-between',
   color: '#2B5D7F'
@@ -17,7 +17,7 @@ const UTitle = Styled('h2', {
   borderBottom: '1px solid #4CB7FF'
 })
 
-const BulletedList = Styled('ul',{
+const BulletedList = Styled('ul', {
   listStyle: 'none',
   padding: '0',
   margin: '0'
@@ -29,19 +29,19 @@ class ResumeContent extends Component {
       <div className="content-wrapper">
         <div className="content-section">
           <UTitle>Education</UTitle>
-          <BulletedList>
-            <li>
-              <strong>Oreg State University, Corvallis OR</strong>&nbsp;
-             | BS Computer Science | SEPTEMBER  2015 -  est. JUNE 2019
-            </li>
-            <li>
-              <strong>Chemeketa Community College, Mcminnville OR</strong>&nbsp;
-              | Associate’s Degree | SEPTEMBER  2013 - JUNE 2014  ||  3.26 GPA
-            </li>
-          </BulletedList>
+          <div className="edu-title">
+            <h3>Oreg State University, Corvallis OR</h3>
+            <strong>SEPTEMBER  2015 -  est. JUNE 2019</strong>
+          </div>
+          <p>B.S. Computer Science, Computer Systems</p>
+          <div className="edu-title">
+            <h3>Chemeketa Community College, Mcminnville OR</h3>
+            <strong>SEPTEMBER  2013 - JUNE 2014 </strong>
+          </div>
+          <p>Associates Degree</p>
         </div>
         <div className="content-section">
-        <UTitle>Experience</UTitle>
+          <UTitle>Experience</UTitle>
           <JobTitle>
             <h3>Center For Applied Systems and Software</h3>&nbsp;
             <strong>Software Developer, May 2016 - Present</strong>
@@ -56,12 +56,12 @@ class ResumeContent extends Component {
             <h3>CDK Global</h3>&nbsp;
             <strong>Software Engineer Intern, June 2017 - September 2017</strong>
           </JobTitle>
-          {/* <BulletedList>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </BulletedList> */}
+          <BulletedList>
+            <li>Design and implement a new UI in React Js to be integrated with existing system.</li>
+            <li>Develop workflow for automated testing, building, and publishing to NPM.</li>
+            <li>Present project updates to department and management in weekly demo meetings.</li>
+            <li>Created a design pattern for future developers to adapt for future related development.  </li>
+          </BulletedList>
           <JobTitle>
             <h3>OSU School of Electrical Engineering And Computer Science</h3>&nbsp;
             <strong>Teaching Assistant, September 2016 - June 2017</strong>
@@ -74,7 +74,7 @@ class ResumeContent extends Component {
           </BulletedList>
         </div>
       </div>
-      )
+    )
   }
 }
 
