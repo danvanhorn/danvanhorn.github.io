@@ -16,15 +16,14 @@ class HomeContent extends Component {
             <img src="../images/dvh.jpg" height="30%" width="40%" style={{boxShadow: '1px 1px 2px grey'}}/>
           </PictureContainer>
           <ContentTitle>I'm Daniel Van Horn...</ContentTitle>
-          <p>I'm a software developer and Junior at Oregon State University,
-            pursuing my bachelor's degree in Computer Science, computer systems.
-            I work at the Center for Applied Systems and Software at OSU, CASS 
-            for short, developing web applications for many clients.  
+          <p>I'm a Junior at Oregon State University, pursuing my bachelor's degree in Computer Science, 
+            computer systems and a software engineer at the Center for Applied Systems and Software at OSU,
+            CASS for short. Recently I've been specializing in creating web applications and microservices in 
+            .Net core and Node Js, and building front end user interfaces in React Js.  
           </p>
           <br />
-          <p>I'm an avid cyclist, and ride my bike every day rain or shine. It's almost
-            required to love the outdoor in the Pacific Northwest and I am no exception.
-            I love hiking, camping, rock climbing, and enjoying the great outdoors. 
+          <p>I'm an avid cyclist, and ride my bike every day. I love hiking, camping, rock climbing, 
+            and every other outdoor activity that Oregonians are obligated to enjoy.  
           </p>
         </div>
       </div>
