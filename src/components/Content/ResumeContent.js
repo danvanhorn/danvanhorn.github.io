@@ -22,7 +22,7 @@ const UTitle = Styled("h2", {
 
 const BulletedList = Styled("ul", {
   listStyle: "none",
-  padding: "0",
+  paddingLeft: "10px",
   margin: "0"
 });
 
@@ -91,13 +91,13 @@ class ResumeContent extends React.Component {
             <strong>Teaching Assistant, September 2016 - June 2017</strong>
           </JobTitle>
           <BulletedList>
-            <ListItem>
+            <ListItem><ListBold>Recitations:</ListBold>&nbsp;
             Facilitated weekly lecture sessions to strengthen the fundamental skills of students in UNIX, Python, C++ and object oriented programming. Early introduction to data structures and common paradigms of software engineering.
             </ListItem>
-            <ListItem>
+            <ListItem><ListBold>Laboratories:</ListBold>&nbsp;
             Provided tutoring services regarding design, programming and debugging issues students face both in face-to-face and remote sessions.
             </ListItem>
-            <ListItem>
+            <ListItem><ListBold>Team Collaboration:</ListBold>&nbsp;
             Worked in conjunction with faculty to conceptualize new curriculum and assignments.
             </ListItem>
           </BulletedList>
