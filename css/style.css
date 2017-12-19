@@ -4,12 +4,45 @@
   font-size: 16px;
 }
 
+p,
+li{
+  font-family: 'Open-Sans', sans-serif;
+}
+
+.button-container{
+  display: flex;
+  padding-top: 1em;
+  margin-bottom: -20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#download:link, #download:visited {
+  background-color: #ef5350;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 4px gray;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+
+#download:hover{
+  background-color: #f44336;
+}
+
+#download:active {
+  background-color: #e53935;
+}
+
+
 .content-wrapper{
   display: flex;
   flex-flow: column;
   height: 100%;
   width: 80vw;
-  padding-top: 15vh;
+  padding-top: 20vh;
   box-shadow: 1px 1px 5px grey;
   background-color: #fff;
 }
@@ -74,7 +107,7 @@
 @media screen and (max-width: 600px) {
   .content-wrapper{
     width: 100vw;
-    padding-top: 10vh;
+    padding-top: 15vh;
     border: none;
     box-shadow: none;
   }
