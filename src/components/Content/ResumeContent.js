@@ -1,29 +1,41 @@
-import React, { Component } from 'react';
-import Styled from '../../utils/styled';
-import { ContentTitle, ContentSection } from '../../style/js/styledComponents.js';
+import React, { Component } from "react";
+import Styled from "../../utils/styled";
+import {
+  ContentTitle,
+  ContentSection
+} from "../../style/js/styledComponents.js";
 
-const JobTitle = Styled('div', {
-  display: 'flex',
-  flexFlow: 'row',
-  alignItems: 'center',
-  justifyContent: 'space-between',
-  color: '#2B5D7F'
-})
-
-const UTitle = Styled('h2', {
-  textAlign: 'left',
-  width: '100%',
-  color: '#2B5D7F',
-  borderBottom: '1px solid #4CB7FF'
-})
-
-const BulletedList = Styled('ul', {
-  listStyle: 'none',
-  padding: '0',
-  margin: '0'
+const JobTitle = Styled("div", {
+  display: "flex",
+  flexFlow: "row",
+  alignItems: "center",
+  justifyContent: "space-between",
+  color: "#2B5D7F"
 });
 
-class ResumeContent extends Component {
+const UTitle = Styled("h2", {
+  textAlign: "left",
+  width: "100%",
+  color: "#2B5D7F",
+  borderBottom: "1px solid #4CB7FF"
+});
+
+const BulletedList = Styled("ul", {
+  listStyle: "none",
+  paddingLeft: "10px",
+  margin: "0"
+});
+
+const ListItem = Styled("li", {
+  padding: "4px 0px 4px 0px"
+});
+
+const ListBold = Styled("strong", {
+  color: "#2B5D7F"
+});
+
+class ResumeContent extends React.Component {
+
   render() {
     return (
       <div className="content-wrapper">
@@ -60,34 +72,38 @@ class ResumeContent extends Component {
             <strong>Software Developer, May 2016 - Present</strong>
           </JobTitle>
           <BulletedList>
-            <li>Collaborate with team members in an to develop and maintain applications for a government system using AGILE practices.</li>
-            <li>Update outdated technologies and design methodologies using modern practices.</li>
-            <li>Develop RESTful geospatial services to supply dynamic information to web applications using MVC pattern and ArcGIS API.</li>
-            <li>Adapt at dynamic project specifications and full stack full stack development.</li>
+            <ListItem><ListBold>Smarter Balanced:</ListBold>&nbsp; Suite of scalable, open source .NET core and Node microservice and web applications with a shared component library in React and Typescript for the Smarter Balanced Assessment Consortium, serving 4700 state agencies, teachers, parents and students. Minimized repeated code and allowed for thorough automated testing, continuous integration and deployment using Docker and AWS. Increased code coverage from 0 to 80% and introduced a consistent development workflow upon joining the team.</ListItem>
+            <ListItem><ListBold>Oregon Department of Transportation:</ListBold>&nbsp; Collaborated with a team to develop and maintain RESTful web services, MVC web applications in C#, interconnected SQL databases, and desktop applications. The applications we created allowed users to edit and dynamically render data-driven graphics and live events from the entire state of Oregon.</ListItem>
+            <ListItem><ListBold>Responsibilities:</ListBold>&nbsp; Adapt to rapidly changing project specifications and synthesize new technologies. Attend weekly sprint planning, daily standups, and excel in an AGILE team environment with deadlines. Mentor teammates in UI, API, and Dev Ops implementation and design.</ListItem>
           </BulletedList>
           <JobTitle>
             <h3>CDK Global</h3>&nbsp;
             <strong>Software Engineer Intern, June 2017 - September 2017</strong>
           </JobTitle>
           <BulletedList>
-            <li>Design and implement a new UI in React Js to be integrated with existing system.</li>
-            <li>Develop workflow for automated testing, building, and publishing to NPM.</li>
-            <li>Present project updates to department and management in weekly demo meetings.</li>
-            <li>Created a design pattern for future developers to adapt for future related development.  </li>
+            <ListItem><ListBold>Customer Search Interface:</ListBold>&nbsp; Designed and implemented a responsive, mobile-first UI in React and Redux for a search system that serves over 27,000 retail locations in 100 countries. Instituted a workflow for developers to follow; automated testing, building, and deployment to NPM. Adhered to test driven development which resulted in 97% code coverage and far less bugs in development.</ListItem>
+            <ListItem><ListBold>Cloud Search:</ListBold>&nbsp; Member of winning team in the 2017 CDK Global Hackathon. Developed a cloud service and search API in .NET core hosted in AWS for indexing the entire customer database. Built a user input auto-completion UI in React. Improved search speeds by a factor of 50; estimated to save the company over $8 million a year in development costs.            </ListItem>
+            <ListItem><ListBold>Responsibilities:</ListBold>&nbsp; Consistently met goals and deadlines in a rapid SCRUM environment; held daily standup meetings and weekly project showcases with upper management.
+            </ListItem>
           </BulletedList>
           <JobTitle>
             <h3>OSU School of Electrical Engineering And Computer Science</h3>&nbsp;
             <strong>Teaching Assistant, September 2016 - June 2017</strong>
           </JobTitle>
           <BulletedList>
-            <li>Teach Computer Science students foundational skills in UNIX, Python, C++ and OOP.</li>
-            <li>Provide assistance regarding design, programming and debugging issues students face both in person and remotely.</li>
-            <li>Work with faculty to develop new curriculum and assignments.</li>
-            <li>Give supplemental required lectures to students.</li>
+            <ListItem><ListBold>Recitations:</ListBold>&nbsp;
+            Facilitated weekly lecture sessions to strengthen the fundamental skills of students in UNIX, Python, C++ and object oriented programming. Early introduction to data structures and common paradigms of software engineering.
+            </ListItem>
+            <ListItem><ListBold>Laboratories:</ListBold>&nbsp;
+            Provided tutoring services regarding design, programming and debugging issues students face both in face-to-face and remote sessions.
+            </ListItem>
+            <ListItem><ListBold>Team Collaboration:</ListBold>&nbsp;
+            Worked in conjunction with faculty to conceptualize new curriculum and assignments.
+            </ListItem>
           </BulletedList>
         </div>
       </div>
-    )
+    );
   }
 }
 
