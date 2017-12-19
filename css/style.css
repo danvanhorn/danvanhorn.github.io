@@ -4,6 +4,11 @@
   font-size: 16px;
 }
 
+p,
+li{
+  font-family: 'Open-Sans', sans-serif;
+}
+
 .content-wrapper{
   display: flex;
   flex-flow: column;
@@ -74,7 +79,7 @@
 @media screen and (max-width: 600px) {
   .content-wrapper{
     width: 100vw;
-    padding-top: 10vh;
+    padding-top: 15vh;
     border: none;
     box-shadow: none;
   }
