@@ -5,8 +5,8 @@ const s = Object.create(style);
 s.root = {
     display: 'flex',
     flexFlow: 'column nowrap',
-    //fontFamily: "Avenir Next", "Avenir", sans-serif;
-    fontFamily: 'lora, serif',
+    fontFamily: 'Roboto, sans-serif',
+    //fontFamily: 'lora, serif',
     fontWeight: '300',
     //fontSize: '16px',
     letterSpacing: '0.025em',
