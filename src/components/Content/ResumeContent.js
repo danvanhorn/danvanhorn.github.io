@@ -40,7 +40,7 @@ class ResumeContent extends React.Component {
     return (
       <div className="content-wrapper">
         <div className="content-section button-container">
-          <a id="download" href="../images/danvanhornresume.pdf">Download</a>
+          <a id="download" href="../content/danvanhornresume.pdf">Download</a>
         </div>
         <div className="content-section">
           <UTitle>Education</UTitle>

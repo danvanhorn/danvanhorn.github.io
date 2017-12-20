@@ -93,6 +93,6 @@
   #link-container{
     display: flex;
     flex-flow: row nowrap;
-    width: 80vw;
+    width: 95vw;
   }
 }
