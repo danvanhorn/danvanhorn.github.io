@@ -57,7 +57,7 @@
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: absolute;
     width: 100vw;
     height: auto;
     top: 0;
@@ -94,5 +94,18 @@
     display: flex;
     flex-flow: row nowrap;
     width: 95vw;
+  }
+}
+
+/*mobile landscape styles*/
+@media screen 
+and (max-height: 600px) 
+and (orientation: landscape){
+  .navbar-container{
+    position: absolute;
+  }
+
+  #link-container{
+    padding-top: 1em;
   }
 }
