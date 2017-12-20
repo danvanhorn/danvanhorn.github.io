@@ -13,7 +13,7 @@ class HomeContent extends Component {
       <div className="content-wrapper">
         <div className="content-section">
           <PictureContainer >
-            <img src="../images/dvh.jpg" height="30%" width="40%" style={{boxShadow: '1px 1px 2px grey'}}/>
+            <img src="../content/dvh.jpg" height="30%" width="40%" style={{boxShadow: '1px 1px 2px grey'}}/>
           </PictureContainer>
           <ContentTitle>I'm Daniel Van Horn...</ContentTitle>
           <p>I'm a Junior at Oregon State University, pursuing my bachelor's degree in Computer Science, 

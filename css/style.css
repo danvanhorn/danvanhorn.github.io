@@ -4,6 +4,21 @@
   font-size: 16px;
 }
 
+html, body, div, span, a, p, ul, li, h1, code, nav {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: inherit;
+  text-decoration: inherit;
+  text-align: inherit;
+  color: inherit;
+  background: transparent;
+}
+
+html, body { height: 100vh; }
+html {background: #e6e6e6;}
+body { overflow-x: hidden; }
+
 p,
 li{
   font-family: 'Open-Sans', sans-serif;
@@ -105,6 +120,8 @@ li{
 
 
 @media screen and (max-width: 600px) {
+  html {background: #ffffff;}
+
   .content-wrapper{
     width: 100vw;
     padding-top: 15vh;
