@@ -1,17 +1,18 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-import { ContentContainer, ContentWrapper } from '../../style/js/styledComponents';
+import { ContentContainer, ContentTitle } from '../../style/js/styledComponents';
 
-class NotFound extends React.Component {
+export default class NotFound extends React.Component {
   render(){
     return (
       <ContentContainer>
-        <ContentWrapper>
-          Whoops, the path does not match a valid page.
-        </ContentWrapper>
+        <div className="content-wrapper">
+          <div className="content-section" style={{textAlign: "center"}}>
+            <ContentTitle>404</ContentTitle>
+            <p>Whoops, the path does not match a valid page.</p>
+          </div>
+        </div>
       </ContentContainer>
     );
   }
-}
-
-export default NotFound;
+};
